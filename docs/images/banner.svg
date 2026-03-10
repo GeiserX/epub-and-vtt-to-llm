@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5D4037"/>
+      <stop offset="100%" stop-color="#1A1A2E"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="200" rx="12" fill="url(#bg)"/>
+  <!-- Grid pattern -->
+  <g stroke="white" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="40" x2="900" y2="40"/>
+    <line x1="0" y1="80" x2="900" y2="80"/>
+    <line x1="0" y1="120" x2="900" y2="120"/>
+    <line x1="0" y1="160" x2="900" y2="160"/>
+    <line x1="100" y1="0" x2="100" y2="200"/>
+    <line x1="200" y1="0" x2="200" y2="200"/>
+    <line x1="300" y1="0" x2="300" y2="200"/>
+    <line x1="400" y1="0" x2="400" y2="200"/>
+    <line x1="500" y1="0" x2="500" y2="200"/>
+    <line x1="600" y1="0" x2="600" y2="200"/>
+    <line x1="700" y1="0" x2="700" y2="200"/>
+    <line x1="800" y1="0" x2="800" y2="200"/>
+  </g>
+  <!-- Book + neural network icon -->
+  <g transform="translate(120, 100)">
+    <!-- Open book -->
+    <path d="M -38,-20 C -38,-20 -20,-26 -5,-20 L -5,20 C -20,14 -38,20 -38,20 Z" fill="none" stroke="white" stroke-width="2" opacity="0.9"/>
+    <path d="M -5,-20 C 10,-26 28,-20 28,-20 L 28,20 C 10,14 -5,20 -5,20 Z" fill="none" stroke="white" stroke-width="2" opacity="0.9"/>
+    <!-- Book lines -->
+    <line x1="-30" y1="-10" x2="-12" y2="-13" stroke="white" stroke-width="1" opacity="0.3"/>
+    <line x1="-30" y1="-2" x2="-12" y2="-5" stroke="white" stroke-width="1" opacity="0.3"/>
+    <line x1="-30" y1="6" x2="-12" y2="3" stroke="white" stroke-width="1" opacity="0.3"/>
+    <line x1="2" y1="-13" x2="20" y2="-10" stroke="white" stroke-width="1" opacity="0.3"/>
+    <line x1="2" y1="-5" x2="20" y2="-2" stroke="white" stroke-width="1" opacity="0.3"/>
+    <line x1="2" y1="3" x2="20" y2="6" stroke="white" stroke-width="1" opacity="0.3"/>
+    <!-- Arrow connecting book to network -->
+    <line x1="32" y1="0" x2="42" y2="0" stroke="white" stroke-width="1.5" opacity="0.5"/>
+    <polyline points="39,-3 42,0 39,3" fill="none" stroke="white" stroke-width="1.5" opacity="0.5"/>
+    <!-- Neural network nodes -->
+    <!-- Input layer -->
+    <circle cx="50" cy="-15" r="3" fill="white" opacity="0.7"/>
+    <circle cx="50" cy="0" r="3" fill="white" opacity="0.7"/>
+    <circle cx="50" cy="15" r="3" fill="white" opacity="0.7"/>
+    <!-- Hidden layer -->
+    <circle cx="66" cy="-10" r="3" fill="white" opacity="0.7"/>
+    <circle cx="66" cy="5" r="3" fill="white" opacity="0.7"/>
+    <circle cx="66" cy="20" r="3" fill="white" opacity="0.5"/>
+    <!-- Output layer -->
+    <circle cx="82" cy="-5" r="3" fill="white" opacity="0.7"/>
+    <circle cx="82" cy="10" r="3" fill="white" opacity="0.7"/>
+    <!-- Connections input to hidden -->
+    <line x1="53" y1="-15" x2="63" y2="-10" stroke="white" stroke-width="0.8" opacity="0.3"/>
+    <line x1="53" y1="-15" x2="63" y2="5" stroke="white" stroke-width="0.8" opacity="0.3"/>
+    <line x1="53" y1="0" x2="63" y2="-10" stroke="white" stroke-width="0.8" opacity="0.3"/>
+    <line x1="53" y1="0" x2="63" y2="5" stroke="white" stroke-width="0.8" opacity="0.3"/>
+    <line x1="53" y1="0" x2="63" y2="20" stroke="white" stroke-width="0.8" opacity="0.3"/>
+    <line x1="53" y1="15" x2="63" y2="5" stroke="white" stroke-width="0.8" opacity="0.3"/>
+    <line x1="53" y1="15" x2="63" y2="20" stroke="white" stroke-width="0.8" opacity="0.3"/>
+    <!-- Connections hidden to output -->
+    <line x1="69" y1="-10" x2="79" y2="-5" stroke="white" stroke-width="0.8" opacity="0.3"/>
+    <line x1="69" y1="-10" x2="79" y2="10" stroke="white" stroke-width="0.8" opacity="0.3"/>
+    <line x1="69" y1="5" x2="79" y2="-5" stroke="white" stroke-width="0.8" opacity="0.3"/>
+    <line x1="69" y1="5" x2="79" y2="10" stroke="white" stroke-width="0.8" opacity="0.3"/>
+    <line x1="69" y1="20" x2="79" y2="10" stroke="white" stroke-width="0.8" opacity="0.3"/>
+  </g>
+  <!-- Title -->
+  <text x="480" y="90" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">epub-and-vtt-to-llm</text>
+  <!-- Subtitle -->
+  <text x="480" y="130" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="white" opacity="0.8" text-anchor="middle">Train LLMs from ePub and VTT subtitle files</text>
+</svg>

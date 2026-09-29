@@ -7,8 +7,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_community.chat_models import ChatOpenAI
 from langchain.schema import AIMessage, HumanMessage
 
-# Set your OpenAI API key
-os.environ['OPENAI_API_KEY'] = ''
+# The OpenAI API key is read from the OPENAI_API_KEY environment variable
 
 ### VTTs to Q/A Pairs ###
 # Load and extract text from the input JSONL file

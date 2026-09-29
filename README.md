@@ -16,7 +16,7 @@ Python scripts that train LLMs from ePub books and VTT subtitle files. `process_
 
 ## Quick start
 
-You need Python 3, an NVIDIA GPU (the requirements pin CUDA 12.4 wheels) and, for the Q/A generator, an OpenAI key set in `src/transform_text_to_questions.py` line 11. `process_vtt.py` and the training scripts read fixed `E:/...` paths at the top of each file; edit them before running.
+You need Python 3, an NVIDIA GPU (the requirements pin CUDA 12.4 wheels) and, for the Q/A generator, an OpenAI key in the `OPENAI_API_KEY` environment variable. `process_vtt.py` and the training scripts read fixed `E:/...` paths at the top of each file; edit them before running.
 
 ```bash
 pip install -r requirements.txt
